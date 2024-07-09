@@ -19,7 +19,7 @@ body{
 
 /***** Navbar *****/
 nav {
-    display: none;
+    display: flex;
     align-items: center;
     justify-content: space-between;
 }
@@ -299,20 +299,6 @@ nav p span {
     padding: 5px 15px;
     border-radius: 4px;
 }
-
-/* .img-card .card-one .card-img::before {
-    content: url('./assets/heart-white.png');
-    position: absolute;
-    margin-left: 340px;
-    margin-top: 20px;
-} */
-
-/* .img-card .card-one .card-img::after {
-    content: url('./assets/plus.png');
-    position: absolute;
-    margin-top: 330px;
-    margin-left: -60px;
-} */
 
 .img-card .card-one .card-img img {
     width: 400px;

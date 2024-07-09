@@ -12,7 +12,7 @@ import NewArrivals from './components/NewArrivals'
 const Home = () => {
   return (
     <>
-     {/* <Navbar /> */}
+     <Navbar />
      <Marquee />
      <Hero />
      <NewSeason />
