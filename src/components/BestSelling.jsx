@@ -97,6 +97,9 @@ const BestSelling = () => {
                     </div>
                 </div>
             </div>
+            <div className="best-selling-btn">
+                <a href="#">view all products</a>
+            </div>
         </div>
     )
 }
