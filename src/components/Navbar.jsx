@@ -2,13 +2,14 @@ import React from 'react'
 import Heart from '../assets/heart.png'
 import CartImg from '../assets/cart.png'
 import { Link } from "react-router-dom"
+import logo from "../assets/logo.png"
 
 
 const Navbar = () => {
   return (
     <div className='container'>
      <nav>
-        <p>shop<span>plee</span></p>
+        <img src={logo} alt="shopplee" />
         <div className="nav-links">
             <ul>
                 <li><a href="#">home</a></li>
@@ -20,7 +21,7 @@ const Navbar = () => {
         </div>
         <div className="nav-btn">
             <img src={Heart} alt="double heart shape" />
-             <Link to="/cart"><img src={CartImg} alt="shopping cart" /></Link>
+             <Link to="/cartpage"><img src={CartImg} alt="shopping cart" /></Link>
             <a href="#" className='nav-button'>dashboard</a>
         </div>
      </nav>

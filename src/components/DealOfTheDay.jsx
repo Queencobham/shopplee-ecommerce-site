@@ -1,11 +1,10 @@
 import React from 'react'
-// import shoe from "../assets/shoe.png"
-// import shirt from "../assets/shirt.png"
-// import watch from "../assets/watch.png"
-// import bag from "../assets/bag.png"
-// import coat from "../assets/coat.png"
-// import speaker from "../assets/speaker.png"
-import shoe from "../assets/border-shoe.png"
+import shoe from "../assets/shoe.png"
+import shirt from '../assets/shirt.png'
+import watch from "../assets/watch.png"
+import bag from "../assets/bag.png"
+import coat from "../assets/coat.png"
+import speaker from "../assets/speaker.png"
 
 
 const DealOfTheDay = () => {
@@ -18,9 +17,6 @@ const DealOfTheDay = () => {
             <div className="img-card">
                 <div className="card-one">
                     <div className="card-img">
-                        <div className="p-icon">
-                            <p>-20%</p>
-                        </div>
                         <img src={shoe} alt="shoe" />
                     </div>
                     <div className="card-text">
@@ -35,8 +31,7 @@ const DealOfTheDay = () => {
 
                 <div className="card-one">
                     <div className="card-img">
-                    <p>-20%</p>
-                        <img src={shoe} alt="shirt" />
+                        <img src={shirt} alt="shirt" />
                     </div>
                     <div className="card-text">
                         <h4 className='product-name'>calvin slim fit shirt</h4>
@@ -50,8 +45,7 @@ const DealOfTheDay = () => {
 
                 <div className="card-one">
                     <div className="card-img">
-                    <p>-20%</p>
-                        <img src={shoe} alt="watch" />
+                        <img src={watch} alt="watch" />
                     </div>
                     <div className="card-text">
                         <h4 className='product-name'>oikos watch</h4>
@@ -65,8 +59,7 @@ const DealOfTheDay = () => {
 
                 <div className="card-one">
                     <div className="card-img">
-                    <p>-20%</p>
-                        <img src={shoe} alt="bag" />
+                        <img src={bag} alt="bag" />
                     </div>
                     <div className="card-text">
                         <h4 className='product-name'>gucci duffle bag</h4>
@@ -80,8 +73,7 @@ const DealOfTheDay = () => {
 
                 <div className="card-one">
                     <div className="card-img">
-                    <p>-20%</p>
-                        <img src={shoe} alt="coat" />
+                        <img src={coat} alt="coat" />
                     </div>
                     <div className="card-text">
                         <h4 className='product-name'>fedan raincoat</h4>
@@ -95,8 +87,7 @@ const DealOfTheDay = () => {
 
                 <div className="card-one">
                     <div className="card-img">
-                    <p>-20%</p>
-                        <img src={shoe} alt="speaker" />
+                        <img src={speaker} alt="speaker" />
                     </div>
                     <div className="card-text">
                         <h4 className='product-name'>JBL speaker</h4>
