@@ -16,7 +16,7 @@ const NewArrivals = () => {
                     <img src={img2} alt="workout band" />
                     <p>Stretch those muscles</p>
                 </span>
-                <span>
+                <span className="image-grid-col-3">
                     <img src={img3} alt="running shoes" />
                     <p>Become the flash when you run on the track</p>
                 </span>
