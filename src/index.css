@@ -573,6 +573,10 @@ footer .logo img {
     text-transform: capitalize;
 }
 
+.links a:hover{
+    color:#930BFE;
+}
+
 .links .link-a {
     color: #930BFE;
 }
