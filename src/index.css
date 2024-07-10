@@ -1344,4 +1344,8 @@ form span input[type=text] {
     footer {
         gap: 2em;
     }
+
+    .cart-table .desktop {
+        display: flex;
+    }
 }
