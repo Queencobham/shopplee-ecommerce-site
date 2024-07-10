@@ -842,7 +842,10 @@ form span input[type=text]{
 @media only screen and (max-width: 1240px) {
     nav{
       height: 50px;
-      align-items: center;
+    }
+
+    nav img{
+        width: 150px;
     }
   
     nav ul{
@@ -869,7 +872,6 @@ form span input[type=text]{
       display: block;
       position: relative;
       z-index: 1100;
-      top: 10%;
       margin-left: auto;
     }
   
