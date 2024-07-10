@@ -222,7 +222,6 @@ nav p span {
     line-height: 40.81px;
     font-weight: 300;
     font-size: 18px;
-    padding-left: 65px;
 }
 
 .new-season .categories h4 {
@@ -839,7 +838,7 @@ form span input[type=text]{
 
 
 /****** Media Queries ******/
-@media only screen and (max-width: 1240px) {
+@media only screen and (max-width: 1010px) {
     nav{
       height: 50px;
     }
