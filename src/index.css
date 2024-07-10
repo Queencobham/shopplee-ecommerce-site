@@ -883,28 +883,27 @@ form span input[type=text]{
       position: fixed;
       right: 2.5%;
       top: 5%;
+      color: #ffffff;
     }
     
-    nav .nav-links {
+    nav ul span {
       flex-direction: column;
       gap: 2em;
       margin-top: 80px;
     }
   
-    nav ul li a {
-      font-weight: 700;
+    nav .nav-links ul span li a {
+      font-weight: 500;
       color: #ffffff;
       font-size: 18px;
-    }
-  
-    nav .btn{
+      padding: 10px;
+      display: flex;
       justify-content: center;
-      margin-top: 20px;
+      align-items: center;
     }
-  
-    nav .btn a {
-      border: 1px solid #ffffff;
-      color: #ffffff;
+
+    nav .nav-links ul span li a:hover{
+        color: #000000;
     }
     
     .btn .get-started {
