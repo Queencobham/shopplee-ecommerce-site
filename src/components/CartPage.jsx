@@ -32,13 +32,13 @@ const CartPage = () => {
                             <div className="cart-item cart-img-one"><img src={smallcoat} alt="coat" />Fedan Raincoat</div>
                             <div className="cart-item price">$52</div>
                             <div className="cart-item cart-item-quan"><img src={quantityone} alt="01" /></div>
-                            <div className="cart-item subtotal">$52</div>
+                            <div className="cart-item cart-item-subtotal">$52</div>
                         </div>
                         <div className="cart-row">
                             <div className="cart-item cart-img-two "><img src={smallpad} alt="gamepad" />PSS Double Gamepad</div>
                             <div className="cart-item price">$52</div>
                             <div className="cart-item cart-item-quan"><img src={quantitythree} alt="03" /></div>
-                            <div className="cart-item subtotal">$156</div>
+                            <div className="cart-item cart-item-subtotal">$156</div>
                         </div>
                     </div>
 
@@ -67,7 +67,7 @@ const CartPage = () => {
                         </div>
 
                         <div className="proceed-btn">
-                            <a href="#">Proceed to Checkout</a>
+                            <Link to="/checkout">proceed to checkout</Link>
                         </div>
                     </div>
                 </div>

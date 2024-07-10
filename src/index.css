@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: "Poppins", sans-serif;
 }
 
@@ -40,7 +40,7 @@ nav p span {
     gap: 2em;
 }
 
-.nav-links ul span{
+.nav-links ul span {
     display: flex;
     gap: 2em;
 }
@@ -74,7 +74,7 @@ nav p span {
     height: 40px;
 }
 
-.nav-btn img:hover{
+.nav-btn img:hover {
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -93,21 +93,21 @@ nav p span {
     text-decoration: none;
 }
 
-.nav-button:hover{
+.nav-button:hover {
     background-color: transparent;
     border: 1px solid #000000;
     color: #000000;
 }
 
-.hamburger{
+.hamburger {
     display: none;
 }
 
-.open{
+.open {
     display: flex;
 }
 
-.mobile{
+.mobile {
     display: none;
 }
 
@@ -267,17 +267,20 @@ nav p span {
 }
 
 /**** deals-of-the-day  and bestselling****/
-.deals, .billing {
+.deals,
+.billing {
     margin-top: 30px;
 }
 
-.deals-text, .billing-text {
+.deals-text,
+.billing-text {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.deals-text h3, .billing h3 {
+.deals-text h3,
+.billing h3 {
     font-size: 40px;
     font-weight: 300;
     line-height: 61.22px;
@@ -295,7 +298,7 @@ nav p span {
     text-decoration: none;
 }
 
-.deals-text a:hover{
+.deals-text a:hover {
     background-color: transparent;
     border: 1px solid #000000;
     color: #000000;
@@ -380,7 +383,7 @@ nav p span {
     color: #ffffff;
 }
 
-.best-selling-btn:hover{
+.best-selling-btn:hover {
     background-color: transparent;
     border: 1px solid #000000;
     color: #000000;
@@ -429,7 +432,7 @@ nav p span {
     grid-row: span 2;
 }
 
-.image-grid span p{
+.image-grid span p {
     position: absolute;
     margin-top: -10%;
     width: 402px;
@@ -494,7 +497,7 @@ nav p span {
     color: #FFFFFF;
 }
 
-.subscribe .form button:hover{
+.subscribe .form button:hover {
     background-color: transparent;
     border: 1px solid #ffffff;
     color: #930BFE;
@@ -589,8 +592,8 @@ footer .logo img {
     text-transform: capitalize;
 }
 
-.links a:hover{
-    color:#930BFE;
+.links a:hover {
+    color: #930BFE;
 }
 
 .links .link-a {
@@ -622,7 +625,8 @@ footer .logo img {
     text-align: center;
 }
 
-.cart-img-one, .cart-img-two{
+.cart-img-one,
+.cart-img-two {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -631,28 +635,32 @@ footer .logo img {
     left: 50px;
 }
 
-
-.cart-img-two{
+.cart-img-two {
     left: 75px;
 }
 
-.cart-img-one::before{
+.cart-img-one::before {
     content: url(./assets/cross.png);
     position: absolute;
     left: 18%;
-    bottom:30px;
+    bottom: 30px;
 
 }
 
-.cart-img-two::before{
+.cart-img-two::before {
     content: url(./assets/cross.png);
     position: absolute;
     left: 10%;
-    bottom:30px;
+    bottom: 30px;
 }
 
-.cart-item-quan img{
+.cart-item-quan img {
     width: 60px;
+}
+
+.cart-item-subtotal{
+    position: relative;
+    right: 1%;  
 }
 
 .cart-checkout {
@@ -696,7 +704,7 @@ footer .logo img {
     font-weight: 400;
 }
 
-.cart-checkout .coupon button:hover{
+.cart-checkout .coupon button:hover {
     background-color: transparent;
     border: 1px solid #000000;
     color: #000000;
@@ -745,29 +753,29 @@ hr {
     color: #D9D9D9;
 }
 
-.proceed-btn a:hover{
+.proceed-btn a:hover {
     background-color: transparent;
     border: 1px solid #000000;
     color: #000000;
 }
 
 /***** checkout page *****/
-.checkoutpage{
+.checkoutpage {
     background-color: #FFF9F9;
 }
 
-.mobile-visa{
+.mobile-visa {
     display: none;
 }
 
-.billing h1{
+.billing h1 {
     font-weight: 500;
     font-size: 48px;
     color: #000000;
     line-height: 72px;
 }
 
-.billing h2{
+.billing h2 {
     font-weight: 300;
     font-size: 24px;
     line-height: 36px;
@@ -775,33 +783,33 @@ hr {
     margin-top: 20px;
 }
 
-.form-flex{
+.form-flex {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 
-form{
+form {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-form span{
+form span {
     display: flex;
     flex-direction: column;
     gap: 5px;
 }
 
-form p{
+form p {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: #000000;
 }
 
-form span input[type=text]{
+form span input[type=text] {
     width: 618px;
     max-width: 100%;
     background-color: transparent;
@@ -811,12 +819,12 @@ form span input[type=text]{
     outline: none;
 }
 
-.card-details{
+.card-details {
     display: flex;
     gap: 10px;
 }
 
-.card-details span input{
+.card-details span input {
     width: 130px;
     max-width: 100%;
     background-color: transparent;
@@ -826,12 +834,13 @@ form span input[type=text]{
     outline: none;
 }
 
-.card-radio, .pay-on-delivery{
+.card-radio,
+.pay-on-delivery {
     display: flex;
     gap: 10px;
 }
 
-.mastercard{
+.mastercard {
     margin-left: 30px;
 }
 
@@ -839,88 +848,90 @@ form span input[type=text]{
 
 /****** Media Queries ******/
 @media only screen and (max-width: 1010px) {
-    nav{
-      height: 50px;
+    nav {
+        height: 50px;
     }
 
-    nav img{
+    nav img {
         width: 150px;
     }
-  
-    nav ul{
-      position: fixed;
-      background-color: #930BFE;
-      top: 0;
-      right: -100%;
-      height: 100%;
-      z-index: 1000;
-      width: 100%;
-      flex-direction: column;
-      gap: 2em;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      transition: transform 0.7s ease-in-out, right 0.7s ease-in-out;;
-      transform: translateX(100%);
-    }
-  
-    .open {
-      right: 0;
-      transform: translateX(0);
-    }
-  
-    .hamburger{
-      display: block;
-      position: relative;
-      z-index: 1100;
-      margin-left: auto;
-    }
-  
-    .fa-bars, .fa-times{
-      padding: 5px;
-      font-size: 2.5rem;
-      color: #000000;
-    }
-  
-    .fa-times{
-      position: fixed;
-      right: 2.5%;
-      top: 5%;
-      color: #ffffff;
-    }
-    
-    nav .nav-links ul span{
-      flex-direction: column;
-      gap: 2em;
-      margin-top: 80px;
-    }
-  
-    nav .nav-links ul span li a {
-      font-weight: 700;
-      color: #ffffff;
-      font-size: 18px;
-      padding: 10px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+
+    nav ul {
+        position: fixed;
+        background-color: #930BFE;
+        top: 0;
+        right: -100%;
+        height: 100%;
+        z-index: 1000;
+        width: 100%;
+        flex-direction: column;
+        gap: 2em;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.7s ease-in-out, right 0.7s ease-in-out;
+        ;
+        transform: translateX(100%);
     }
 
-    nav .nav-links ul span li a:hover{
+    .open {
+        right: 0;
+        transform: translateX(0);
+    }
+
+    .hamburger {
+        display: block;
+        position: relative;
+        z-index: 1100;
+        margin-left: auto;
+    }
+
+    .fa-bars,
+    .fa-times {
+        padding: 5px;
+        font-size: 2.5rem;
         color: #000000;
     }
-    
-    .btn .get-started {
-      color: #3B82F6;
-      background-color: #ffffff;
-    }  
 
-    .mobile{
+    .fa-times {
+        position: fixed;
+        right: 2.5%;
+        top: 5%;
+        color: #ffffff;
+    }
+
+    nav .nav-links ul span {
+        flex-direction: column;
+        gap: 2em;
+        margin-top: 80px;
+    }
+
+    nav .nav-links ul span li a {
+        font-weight: 700;
+        color: #ffffff;
+        font-size: 18px;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav .nav-links ul span li a:hover {
+        color: #000000;
+    }
+
+    .btn .get-started {
+        color: #3B82F6;
+        background-color: #ffffff;
+    }
+
+    .mobile {
         display: flex;
     }
 
-    .desktop{
+    .desktop {
         display: none;
     }
-  }
-  
+}
+
 
 
 @media only screen and (max-width: 698px) {
@@ -929,20 +940,20 @@ form span input[type=text]{
         text-align: center;
         line-height: 70px;
     }
-    
+
     .hero .hero-text h3 {
         font-size: 24px;
         line-height: 36px;
     }
-    
+
     .hero .hero-img {
         top: 20px;
     }
-    
+
     .hero .hero-img img {
         max-width: 100%;
     }
-    
+
     .new-season h3 {
         font-size: 24px;
         line-height: 36px;
@@ -951,95 +962,97 @@ form span input[type=text]{
     .search-container {
         margin-top: 30px;
     }
-    
+
     .search-container .search-icon {
         margin-top: 22px;
         font-size: 24px;
     }
-    
+
     .search-container input::placeholder {
         font-size: 16px;
     }
-    
+
     .new-season .categories h4 {
         font-size: 24px;
         line-height: 24px;
     }
-    
+
     .item {
         min-width: 150px;
         padding: 10px;
         font-size: 16px;
     }
-    
+
     .all {
         min-width: 70px;
     }
 
-    .deals, .billing {
+    .deals,
+    .billing {
         margin-top: 5px;
     }
 
-    
-    .deals-text h3, .billing-text h3 {
+
+    .deals-text h3,
+    .billing-text h3 {
         font-size: 20px;
         line-height: 24px;
     }
-    
+
     .deals-text a {
         padding: 6px 12px;
         font-size: 16px;
     }
 
     .img-card {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-    
- .img-card .card-one .card-img p {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .img-card .card-one .card-img p {
         font-size: 12px;
         line-height: 10px;
         margin-top: 10px;
         padding: 2px 6px;
         border-radius: 15px;
     }
-    
+
     .img-card .card-one .card-img::before {
-    margin-left: 30%;
-    transform: scale(0.6);
-    margin-top: -5px;
+        margin-left: 30%;
+        transform: scale(0.6);
+        margin-top: -5px;
     }
-    
+
     .img-card .card-one .card-img::after {
         margin-top: 30%;
         margin-left: -43px;
         transform: scale(0.6);
     }
-    
+
     .img-card .card-one .card-img img {
         max-width: 100%;
     }
-    
+
     .img-card .card-one .card-text {
         padding: 7px 0;
     }
-    
+
     .img-card .card-one .card-text .product-name {
         font-size: 15px;
         line-height: 24px;
     }
-    
+
     .img-card .card-one .card-text .category {
         font-size: 14px;
         line-height: 12px;
         margin-bottom: 14px;
     }
-    
+
     .img-card .card-one .card-text .price p {
         font-size: 13px;
         line-height: 17.77px;
     }
-    
+
     .img-card .card-one .card-text .price span {
         color: #FF8731;
         font-size: 10px;
@@ -1052,62 +1065,63 @@ form span input[type=text]{
         padding: 15px 15px;
         border-radius: 15px;
     }
-    
+
     .best-selling-btn a {
         font-size: 16px;
         line-height: 24px;
     }
 
     .new-arrival h2 {
-    font-size: 20px;
-    line-height: 24px;
-    margin-left: 5px;
-}
+        font-size: 20px;
+        line-height: 24px;
+        margin-left: 5px;
+    }
 
-.image-grid { 
-    grid-template-columns: repeat(1, 1fr);
-    grid-auto-rows: 200px;
-}
+    .image-grid {
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: 200px;
+    }
+
     .image-grid-col-3 {
-    grid-row: span 2;
-}
+        grid-row: span 2;
+    }
 
-.image-grid img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 30px;
-}
+    .image-grid img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 30px;
+    }
 
-.image-grid span p{
-    font-size: 20px;
-    line-height: 24px;
-    width: 200px;
-    margin-top: -25%;
-    margin-left: 5%;
-}
+    .image-grid span p {
+        font-size: 20px;
+        line-height: 24px;
+        width: 200px;
+        margin-top: -25%;
+        margin-left: 5%;
+    }
 
     .subscribe {
         border-radius: 5px;
         max-width: 90%;
     }
-    
+
     .subscribe p {
         font-weight: 400;
         font-size: 16px;
         line-height: 24px;
     }
-    
+
     .subscribe .form input {
         width: 120px;
         padding: 8.2px 7.72px;
         outline: none;
     }
 
-    .subscribe .form input::placeholder{
+    .subscribe .form input::placeholder {
         font-size: 13px;
     }
-    
+
     .subscribe .form button {
         padding: 14.44px 10px;
         border-radius: 5.53px;
@@ -1127,23 +1141,23 @@ form span input[type=text]{
         padding-top: 90px;
         padding-bottom: 80px;
     }
-    
+
     footer .logo img {
         width: 170px;
     }
-    
+
     .footer-links {
         display: flex;
         flex-wrap: wrap;
         gap: 5em;
     }
-    
+
     .footer-info {
         display: flex;
         flex-direction: column;
         gap: 15px;
     }
-    
+
     .footer-info h4 {
         font-weight: 500;
         font-size: 20px;
@@ -1151,17 +1165,17 @@ form span input[type=text]{
         color: #FAFAFA;
         text-transform: capitalize;
     }
-    
+
     .footer-account ul {
         display: flex;
         flex-direction: column;
         gap: 10px;
     }
-    
+
     .footer-account ul li {
         list-style-type: none;
     }
-    
+
     .footer-account ul li a,
     .support-text p {
         text-decoration: none;
@@ -1171,39 +1185,39 @@ form span input[type=text]{
         line-height: 24px;
         color: #FAFAFA;
     }
-    
+
     .support-text p {
         padding: 5px 0;
     }
-    
-   footer {
-    justify-content: flex-start;
-    align-items: center;
-    gap: 2em;
-    padding-left: 20px;
-}
 
-.footer-links {
-    gap: 3em;
-}
+    footer {
+        justify-content: flex-start;
+        align-items: center;
+        gap: 2em;
+        padding-left: 20px;
+    }
 
-.links a,
-.links p {
-    font-size: 16px;
-    line-height: 24px;
-}
-    
-    .billing h1{
-        font-size:24px;
+    .footer-links {
+        gap: 3em;
+    }
+
+    .links a,
+    .links p {
+        font-size: 16px;
         line-height: 24px;
     }
-    
-    .billing h2{
+
+    .billing h1 {
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    .billing h2 {
         font-size: 24px;
     }
-    
-    
-    form span input[type=text]{
+
+
+    form span input[type=text] {
         width: 300px;
         max-width: 100%;
     }
@@ -1214,38 +1228,38 @@ form span input[type=text]{
         margin-top: 20px;
         padding: 20px 10px;
     }
-    
+
     .cart-checkout .coupon input {
         width: 300px;
         background-color: transparent;
         outline: none;
     }
-    
+
     .proceed-btn {
         display: flex;
         justify-content: center;
     }
-    
+
     .proceed-btn a {
         width: 300px;
     }
 
-    .mobile-visa{
+    .mobile-visa {
         display: flex;
         gap: 10px;
-        justify-content:center;
+        justify-content: center;
         margin-top: 10px
     }
-    
-    .card-radio{
+
+    .card-radio {
         display: none;
     }
 
-    .cart-table .desktop{
+    .cart-table .desktop {
         display: none;
     }
 
-    .cart-table{
+    .cart-table {
         width: 300px;
     }
 
@@ -1257,12 +1271,12 @@ form span input[type=text]{
         padding: 15px;
     }
 
-    .cart-table .subtotal{
+    .cart-table .subtotal {
         order: 2;
     }
 
-    .cart-table .cart-item-quan{
-        order:3;
+    .cart-table .cart-item-quan {
+        order: 3;
     }
 
     .cart-item {
@@ -1270,47 +1284,49 @@ form span input[type=text]{
         text-align: left;
     }
 
-.price{
-    display: none;
-}
+    .price {
+        display: none;
+    }
 
-    
-    .cart-img-one, .cart-img-two{
+
+    .cart-img-one,
+    .cart-img-two {
         left: 0;
     }
-    
-    .cart-img-two{
+
+    .cart-img-two {
         left: 0;
     }
-    
-    .cart-img-one::before{
+
+    .cart-img-one::before {
         content: url(./assets/cross.png);
         position: absolute;
         left: 0%;
-        bottom:30px;
-    
+        bottom: 30px;
+
     }
-    
-    .cart-img-two::before{
+
+    .cart-img-two::before {
         content: url(./assets/cross.png);
         position: absolute;
         left: -5%;
-        bottom:30px;
+        bottom: 30px;
     }
-    
-    .cart-item-quan img{
+
+    .cart-item-quan img {
         width: 60px;
     }
 
-    
-    
+
+
 }
-    
+
 
 @media (min-width: 768px) and (max-width: 1024px) {
-    .hero .hero-img{
+    .hero .hero-img {
         text-align: center;
     }
+
     .hero .hero-img img {
         max-width: 60%;
     }
@@ -1322,7 +1338,7 @@ form span input[type=text]{
     .subscribe {
         background-color: #DAADFD;
         border-radius: 30px;
-        max-width:90%;
+        max-width: 90%;
     }
 
     footer {
