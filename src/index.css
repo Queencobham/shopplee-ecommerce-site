@@ -630,21 +630,18 @@ footer .logo img {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5px;
+    gap: 8px;
     position: relative;
     left: 50px;
+    text-align: left;
 }
 
-.cart-img-two {
-    left: 75px;
-}
 
 .cart-img-one::before {
     content: url(./assets/cross.png);
     position: absolute;
     left: 18%;
     bottom: 30px;
-
 }
 
 .cart-img-two::before {
@@ -1347,5 +1344,13 @@ form span input[type=text] {
 
     .cart-table .desktop {
         display: flex;
+    }
+    
+    .cart-img-one::before {
+        left: 5%;
+    }
+    
+    .cart-img-two::before {
+        left: -5%;
     }
 }
